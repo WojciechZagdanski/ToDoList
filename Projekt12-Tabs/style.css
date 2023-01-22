@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 22px;
+    font-family: serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='600' preserveAspectRatio='none' viewBox='0 0 1440 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2576%26quot%3b)' fill='none'%3e%3crect width='1440' height='600' x='0' y='0' fill='url(%23SvgjsLinearGradient2577)'%3e%3c/rect%3e%3cpath d='M 0%2c387 C 26.2%2c342.6 78.6%2c142.8 131%2c165 C 183.4%2c187.2 209.6%2c528.2 262%2c498 C 314.4%2c467.8 340.6%2c7.6 393%2c14 C 445.4%2c20.4 471.6%2c515.4 524%2c530 C 576.4%2c544.6 602.6%2c123.6 655%2c87 C 707.4%2c50.4 733.6%2c315.2 786%2c347 C 838.4%2c378.8 864.6%2c201.8 917%2c246 C 969.4%2c290.2 995.6%2c562.2 1048%2c568 C 1100.4%2c573.8 1126.6%2c281.4 1179%2c275 C 1231.4%2c268.6 1257.8%2c559.8 1310%2c536 C 1362.2%2c512.2 1414%2c232 1440%2c156L1440 600L0 600z' fill='rgba(6%2c 184%2c 31%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2576'%3e%3crect width='1440' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='14.58%25' y1='135%25' x2='85.42%25' y2='-35%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2577'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(241%2c 231%2c 0%2c 0.99)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 2em;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.menu-tabs {
+    margin-bottom: 2em;
+}
+
+.menu-tab {
+    padding: 0.5em 1em;
+    font-size: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.menu-tab:hover {
+    background-color: rgb(255, 243, 177);
+}
+
+.menu-tab-active {
+    background-color: gold;
+}
